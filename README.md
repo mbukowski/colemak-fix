@@ -1,4 +1,4 @@
-# Polish characters in HoldAndPress app for Colemak layout - fix
+# Polish Characters in HoldAndPress App for Colemak Layout - Fix
 In Colemak keyboard layout there is missing on Polish character in HoldAndPress app. 
 Please find below a comprehensive solution.
 
@@ -17,11 +17,11 @@ The same page contains correct steps. Keep in mind to make them work you need to
 https://georgegarside.com/blog/macos/custom-characters-accent-popup-osx/
 
 ## Fixed Configuration
-Below a corrected file which includes all Polish characters on 1st place and German characters on 2nd
-[file:0263503F-A46E-472B-95D7-704B22E9C375-1414-00005F22C2CEA1B1/Keyboard-en.plist]
+Corrected file which includes all Polish characters on 1st place and German characters on 2nd
+* Keyboard-en.plist
 
-Below a corrected file which simply modifies original file by adding ‘ą’, ‘Ą’ at the end of the choice list.
-[file:CFB7D774-0676-4268-8B6A-9C430A9B6CC5-1414-00005F23934140D5/Keyboard-en.plist.fix]
+Corrected file which simply modifies original file by adding ‘ą’, ‘Ą’ at the end of the choice list.
+* Keyboard-en.plist.fix
 
 ## Mount Main Volume as Writeable
 SIP doesn’t have to be disabled. After restart filesystem should be readable again, you may also try to mount it as readable from terminal in recovery mode.
