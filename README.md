@@ -18,10 +18,10 @@ https://georgegarside.com/blog/macos/custom-characters-accent-popup-osx/
 
 ## Fixed Configuration
 Corrected file which includes all Polish characters on 1st place and German characters on 2nd
-* Keyboard-en.plist
+* [Keyboard-en.plist](https://github.com/witcher451/colemak-fix/blob/master/Keyboard-en.plist)
 
 Corrected file which simply modifies original file by adding ‘ą’, ‘Ą’ at the end of the choice list.
-* Keyboard-en.plist.fix
+* [Keyboard-en.plist.fix](https://github.com/witcher451/colemak-fix/blob/master/Keyboard-en.plist.fix)
 
 ## Mount Main Volume as Writeable
 SIP doesn’t have to be disabled. After restart filesystem should be readable again, you may also try to mount it as readable from terminal in recovery mode.
